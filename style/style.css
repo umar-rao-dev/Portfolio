@@ -704,6 +704,37 @@ section {
   margin-bottom: 1rem;
 }
 
+
+
+.project-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.project-buttons .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    transition: transform 0.2s;
+}
+
+.project-buttons .btn:hover {
+    transform: translateY(-2px);
+}
+
+.live-btn {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.code-btn {
+    background-color: var(--secondary);
+    color: #fff;
+}
+
+
+
 /* Projects Section */
 .projects-grid {
   display: grid;
